@@ -3,6 +3,10 @@ import './App.css';
 import Question from './Question';
 import questionData from './question-data.json';
 
+let topics = questionData.topics;
+let questions = questionData.questions;
+
+
 function App() {
 
   return (
@@ -13,50 +17,50 @@ function App() {
       <div className="board">
           {/* Column - 1 (HISTORY) */}
           <div className="column">
-            <h1>History</h1>
+            <h1>{topics[0]}</h1>
             <Question
-              clue={questionData[0].clue}
-              answer={questionData[0].answer}
+              clue={questions[0].clue}
+              answer={questions[0].answer}
             />
             <Question
-              clue={questionData[1].clue}
-              answer={questionData[1].answer}
+              clue={questions[1].clue}
+              answer={questions[1].answer}
             />
             <Question
-              clue={questionData[2].clue}
-              answer={questionData[2].answer}
+              clue={questions[2].clue}
+              answer={questions[2].answer}
             />
           </div>
           {/* Column - 2 (SPORTS) */}
           <div className="column">
-            <h1>History</h1>
+            <h1>{topics[1]}</h1>
             <Question
-              clue={questionData[3].clue}
-              answer={questionData[3].answer}
+              clue={questions[3].clue}
+              answer={questions[3].answer}
             />
             <Question
-              clue={questionData[4].clue}
-              answer={questionData[4].answer}
+              clue={questions[4].clue}
+              answer={questions[4].answer}
             />
             <Question
-              clue={questionData[5].clue}
-              answer={questionData[5].answer}
+              clue={questions[5].clue}
+              answer={questions[5].answer}
             />
           </div>
           {/* Column - 3 (MUSIC) */}
           <div className="column">
-            <h1>History</h1>
+            <h1>{topics[2]}</h1>
             <Question
-              clue={questionData[6].clue}
-              answer={questionData[6].answer}
+              clue={questions[6].clue}
+              answer={questions[6].answer}
             />
             <Question
-              clue={questionData[7].clue}
-              answer={questionData[7].answer}
+              clue={questions[7].clue}
+              answer={questions[7].answer}
             />
             <Question
-              clue={questionData[8].clue}
-              answer={questionData[8].answer}
+              clue={questions[8].clue}
+              answer={questions[8].answer}
             />
           </div>
       </div>
