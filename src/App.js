@@ -47,7 +47,7 @@ function App() {
               answer={questions[5].answer}
             />
           </div>
-          {/* Column - 3 (MUSIC) */}
+          {/* Column - 3 (TECH) */}
           <div className="column">
             <h1>{topics[2]}</h1>
             <Question
