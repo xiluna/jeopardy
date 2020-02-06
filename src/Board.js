@@ -14,6 +14,7 @@ function Board(props) {
 
                     return (
                         <Column
+                            key={`${topic} column`}
                             topic={topic}
                             questions={topicQuestions}
                         />

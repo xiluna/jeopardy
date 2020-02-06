@@ -1,14 +1,17 @@
 import React from 'react';
-import Question from './Questions';
+import Question from './Question';
 
 function Column(props) {
     return (
-        <div className="question">
-            <h1>{props.topic}</h1>
+        <div className="column">
+            <h1 className="topic">
+                {props.topic}
+            </h1>
             {
-                props.questions.map(question => {
+                props.questions.map((question, i) => {
                     return (
                         <Question
+                            key={question.clue}
                             clue={question.clue}
                             answer={question.answer}
                         />
