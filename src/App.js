@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import questionData from './question-data.json';
+
 
 function App() {
 
