@@ -19,7 +19,7 @@ Make sure to check off your items as you complete them. [ ] => [x]
 
 ### JS
 - [ ] Create a component called Question
-- [ ] Call the question component in  App.js
+- [ ] Call the question component in  App.js and have it display some text
 - [ ] Update your images and styling with CSS
 
 
