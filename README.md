@@ -27,8 +27,8 @@ Make sure to check off your items as you complete them. [ ] => [x]
 ## Day 2
 - [ ] Call multiple Question components in your app
 - [ ] Add props to each  Question component including
-- questionText
-- answer
+- topic
+- clue
 - pointValue
 - [ ] Display your props in the Question Component
 - [ ] Use any extra time to style your comonents
