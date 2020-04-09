@@ -1,4 +1,7 @@
-.App{
+body {
+    background-color:#060CE9;
+}
+.App {
     width: 100vh;
     margin: 0 auto;
 }
@@ -14,3 +17,4 @@
     display:flex;
     flex-direction: column;
 }
+

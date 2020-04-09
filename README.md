@@ -18,7 +18,7 @@ Make sure to check off your items as you complete them. [ ] => [x]
 - [x] Add, commit, and push your changes
 
 ### JS
-- [ ] Create a component called Question
+- [x] Create a component called Question
 - [ ] Call the question component in  App.js and have it display some text
 - [ ] Update your images and styling with CSS
 
